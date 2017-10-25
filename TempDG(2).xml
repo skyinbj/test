@@ -1,0 +1,4665 @@
+<?xml version="1.0"?>
+<config XmlVersion="4.6.2030" Date="2014.09.16">
+  <Special>
+    <WhiteProcess Name="程序白名单" Type="28" Domain="1" />
+    <BlackProcess Name="程序黑名单" Type="29" Domain="1">
+      <ModuleInfo Type="32" Domain="">MD5==f183b63130a3987b5f82842f1750223f</ModuleInfo>
+      <ModuleInfo Type="32" Domain="">FileDescription@@ATool</ModuleInfo>
+      <ModuleInfo Type="32" Domain="">MD5==a043df46903c717093972609721c7da5</ModuleInfo>
+      <ModuleInfo Type="32" Domain="">FileDescription@@Resource Hacker Plus</ModuleInfo>
+      <ModuleInfo Type="32" Domain="">MD5==be6c523369e811e94f417f5f378f5600</ModuleInfo>
+      <ModuleInfo Type="32" Domain="">OriginalFilename@@CppWindowsHook.exe</ModuleInfo>
+      <ModuleInfo Type="32" Domain="">OriginalFilename@@IceSword.EXE</ModuleInfo>
+      <ModuleInfo Type="32" Domain="">FileVersion@@3, 7, 300, 503</ModuleInfo>
+      <ModuleInfo Type="32" Domain="">FileDescription@@Wsyscheck</ModuleInfo>
+      <ModuleInfo Type="32" Domain="">OriginalFilename@@SnipeSword.exe</ModuleInfo>
+      <ModuleInfo Type="32" Domain="">OriginalFilename@@SysReveal.exe</ModuleInfo>
+      <ModuleInfo Type="32" Domain="">OriginalFilename@@XueTr.exe</ModuleInfo>
+      <ModuleInfo Type="32" Domain="">OriginalFilename@@sysdiag-gui.exe</ModuleInfo>
+      <ModuleInfo Type="32" Domain="">OriginalFilename@@PowerTool.exe</ModuleInfo>
+      <ModuleInfo Type="32" Domain="">OriginalFilename@@ProcessHacker.exe</ModuleInfo>
+      <ModuleInfo Domain="0">OriginalFilename@@FILEDECRYPT.EXE</ModuleInfo>
+      <ModuleInfo Domain="0">OriginalFileName@@CrackEncryptFile.EXE</ModuleInfo>
+      <ModuleInfo Domain="0">OriginalFileName@@FileReceiver.EXE</ModuleInfo>
+      <ModuleInfo Domain="0">000</ModuleInfo>
+    </BlackProcess>
+    <ProtectProcess Name="保护程序" Type="30" Domain="1" />
+    <AntiUnhook Name="unhook保护" Type="31" IsAll="2" />
+    <BlackSwitchToVir Name="BlackSwitchToVir" Type="52" Domain="">
+      <ModuleInfo Type="53" Domain="">winrar.exe</ModuleInfo>
+      <ModuleInfo Type="53" Domain="">7z.exe</ModuleInfo>
+      <ModuleInfo Domain="0">dllhost.exe</ModuleInfo>
+      <ModuleInfo Domain="0">iexplore.exe</ModuleInfo>
+      <ModuleInfo Domain="0">rundll32.exe</ModuleInfo>
+    </BlackSwitchToVir>
+    <AutoExplorerUNC Name="AutoExplorerUNC" Domain="0">
+      <ModuleInfo Domain="0">\??\unc\192.168.1.128\</ModuleInfo>
+      <ModuleInfo Domain="0">\??\unc\192.168.1.35</ModuleInfo>
+      <ModuleInfo Domain="0">\??\unc\192.168.72.143\share\</ModuleInfo>
+    </AutoExplorerUNC>
+    <q10010 Name="q10010" Domain="0" />
+    <d Name="d" Domain="0" />
+  </Special>
+  <Program>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="办公类.MS_Word" SoftVersion="6.excelcnv exe" Process="excelcnv.exe" system="1" id="1">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.tmp</FileType>
+          <FileType>*.spl</FileType>
+          <FileType>*.dgx</FileType>
+          <FileType>*.pst</FileType>
+          <FileType>*.mb</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="办公类.MS_Word" SoftVersion="1.WORD" Process="OriginalFilename@@WinWord.exe" system="1" id="1">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.spl</FileType>
+          <FileType>*.dgx</FileType>
+          <FileType>*.pst*</FileType>
+          <FileType>*.mb</FileType>
+          <FileType>*.dotm</FileType>
+          <FileType>*.dot</FileType>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*opa11.dat</FileType>
+          <FileType>*opa12.dat</FileType>
+          <FileType>*Microsoft\Templates\*.tmp</FileType>
+          <FileType>*.upt</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*Setting.tmp</FileType>
+          <FileType>*AC\Temp*</FileType>
+          <FileType>*{*-*-*-*-*}*.tmp</FileType>
+          <FileType>*index*.dat</FileType>
+          <FileType>*Office\Recent*</FileType>
+          <FileType>*Office\OTele*</FileType>
+          <FileType>*temp*.fp</FileType>
+          <FileType>*.ost*</FileType>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl>
+        <ModuleInfo>DDE@@Microsoft Word</ModuleInfo>
+        <ModuleInfo>DDE@@Word</ModuleInfo>
+      </WindowsControl>
+      <DllControl />
+      <SocketControl>
+        <IpInfo IP="207.46.0.174">
+          <PortInfo>*</PortInfo>
+        </IpInfo>
+        <IpInfo IP="134.170.108.200">
+          <PortInfo>*</PortInfo>
+        </IpInfo>
+        <IpInfo IP="134.170.109.200">
+          <PortInfo>*</PortInfo>
+        </IpInfo>
+        <IpInfo IP="134.170.120.72">
+          <PortInfo>*</PortInfo>
+        </IpInfo>
+        <IpInfo IP="134.170.120.200">
+          <PortInfo>*</PortInfo>
+        </IpInfo>
+      </SocketControl>
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="办公类.MS_Word" SoftVersion="2.Moc exe" Process="Moc.exe" system="1" id="1">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.tmp</FileType>
+          <FileType>*.spl</FileType>
+          <FileType>*.dgx</FileType>
+          <FileType>*.pst</FileType>
+          <FileType>*.mb</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="nnn">
+        <nnn IsCustom="1" cusid="d2bf59de-6903-40e9-b84f-8c7264e1feeb" />
+      </DebugControl>
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="办公类.MS_Word" SoftVersion="3.PPCNVCOM exe" Process="PPCNVCOM.EXE" system="1" id="1">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.spl</FileType>
+          <FileType>*.dgx</FileType>
+          <FileType>*.tmp</FileType>
+          <FileType>*.pst</FileType>
+          <FileType>*.mb</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="办公类.MS_Word" SoftVersion="4.Wordconv exe" Process="Wordconv.exe" system="1" id="1">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.tmp</FileType>
+          <FileType>*.spl</FileType>
+          <FileType>*.dgx</FileType>
+          <FileType>*.pst</FileType>
+          <FileType>*.mb</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="办公类.MS_Word" SoftVersion="5.Oice exe" Process="Oice.exe" system="1" id="1">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.tmp</FileType>
+          <FileType>*.spl</FileType>
+          <FileType>*.dgx</FileType>
+          <FileType>*.pst</FileType>
+          <FileType>*.mb</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="办公类.MS_Word" SoftVersion="EQNEDT32.EXE1" Process="OriginalFilename@@EQNEDT32.exe" system="1" id="1">
+      <FileInfo>
+        <Include />
+        <Exclude />
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="办公类.MS_Excel" SoftVersion="EXCEL" Process="OriginalFilename@@Excel.exe" system="1" id="2">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.spl</FileType>
+          <FileType>*.dgx</FileType>
+          <FileType>*.pst*</FileType>
+          <FileType>*.mb</FileType>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*opa11.dat</FileType>
+          <FileType>*opa12.dat</FileType>
+          <FileType>*Microsoft\Templates\*.tmp</FileType>
+          <FileType>*.upt</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*AC\Temp*</FileType>
+          <FileType>*index*.dat</FileType>
+          <FileType>*Office\Recent*</FileType>
+          <FileType>*Office\OTele*</FileType>
+          <FileType>*temp*.fp</FileType>
+          <FileType>*.ost*</FileType>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl>
+        <ModuleInfo>DDE@@Microsoft Excel</ModuleInfo>
+        <ModuleInfo>DDE@@Excel</ModuleInfo>
+      </WindowsControl>
+      <DllControl />
+      <SocketControl>
+        <IpInfo IP="207.46.0.174">
+          <PortInfo>*</PortInfo>
+        </IpInfo>
+        <IpInfo IP="134.170.109.200">
+          <PortInfo>*</PortInfo>
+        </IpInfo>
+        <IpInfo IP="134.170.108.200">
+          <PortInfo>*</PortInfo>
+        </IpInfo>
+      </SocketControl>
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="办公类.MS_Excel" SoftVersion="Moc exe" Process="Moc.exe" system="1" id="2">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.tmp</FileType>
+          <FileType>*.spl</FileType>
+          <FileType>*.dgx</FileType>
+          <FileType>*.pst</FileType>
+          <FileType>*.mb</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="办公类.MS_Excel" SoftVersion="PPCNVCOM EXE" Process="PPCNVCOM.EXE" system="1" id="2">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.tmp</FileType>
+          <FileType>*.spl</FileType>
+          <FileType>*.dgx</FileType>
+          <FileType>*.pst</FileType>
+          <FileType>*.mb</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="办公类.MS_Excel" SoftVersion="Wordconv exe" Process="Wordconv.exe" system="1" id="2">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.tmp</FileType>
+          <FileType>*.spl</FileType>
+          <FileType>*.dgx</FileType>
+          <FileType>*.pst</FileType>
+          <FileType>*.mb</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="办公类.MS_Excel" SoftVersion="Oice exe" Process="Oice.exe" system="1" id="2">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.tmp</FileType>
+          <FileType>*.spl</FileType>
+          <FileType>*.dgx</FileType>
+          <FileType>*.pst</FileType>
+          <FileType>*.mb</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="办公类.MS_Excel" SoftVersion="excelcnv exe" Process="excelcnv.exe" system="1" id="2">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.tmp</FileType>
+          <FileType>*.spl</FileType>
+          <FileType>*.dgx</FileType>
+          <FileType>*.pst</FileType>
+          <FileType>*.mb</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="办公类.MS_Excel" SoftVersion="EQNEDT32.EXE1" Process="OriginalFilename@@EQNEDT32.exe" system="1" id="2">
+      <FileInfo>
+        <Include />
+        <Exclude />
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <WindowsControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="办公类.MS_PPT" SoftVersion="EQNEDT32.EXE1" Process="OriginalFilename@@EQNEDT32.exe" system="1" id="3">
+      <FileInfo>
+        <Include />
+        <Exclude />
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="办公类.MS_PPT" SoftVersion="PPT" Process="OriginalFilename@@POWERPNT.EXE" system="1" id="3">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.spl</FileType>
+          <FileType>*.dgx</FileType>
+          <FileType>*.pst*</FileType>
+          <FileType>*.mb</FileType>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*opa11.dat</FileType>
+          <FileType>*opa12.dat</FileType>
+          <FileType>*Microsoft\Templates\*.tmp</FileType>
+          <FileType>*.upt</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*AC\Temp*</FileType>
+          <FileType>*index*.dat</FileType>
+          <FileType>*Office\Recent*</FileType>
+          <FileType>*Office\OTele*</FileType>
+          <FileType>*temp*.fp</FileType>
+          <FileType>*.ost*</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl>
+        <IpInfo IP="207.46.0.174">
+          <PortInfo>*</PortInfo>
+        </IpInfo>
+        <IpInfo IP="134.170.109.200">
+          <PortInfo>*</PortInfo>
+        </IpInfo>
+        <IpInfo IP="134.170.108.200">
+          <PortInfo>*</PortInfo>
+        </IpInfo>
+      </SocketControl>
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="办公类.MS_PPT" SoftVersion="Moc exe" Process="Moc.exe" system="1" id="3">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.tmp</FileType>
+          <FileType>*.spl</FileType>
+          <FileType>*.dgx</FileType>
+          <FileType>*.pst</FileType>
+          <FileType>*.mb</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="办公类.MS_PPT" SoftVersion="excelcnv exe" Process="excelcnv.exe" system="1" id="3">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.tmp</FileType>
+          <FileType>*.spl</FileType>
+          <FileType>*.dgx</FileType>
+          <FileType>*.pst</FileType>
+          <FileType>*.mb</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="办公类.MS_PPT" SoftVersion="PPCNVCOM EXE" Process="PPCNVCOM.EXE" system="1" id="3">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.tmp</FileType>
+          <FileType>*.spl</FileType>
+          <FileType>*.dgx</FileType>
+          <FileType>*.pst</FileType>
+          <FileType>*.mb</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="办公类.MS_PPT" SoftVersion="Wordconv exe" Process="Wordconv.exe" system="1" id="3">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.tmp</FileType>
+          <FileType>*.spl</FileType>
+          <FileType>*.dgx</FileType>
+          <FileType>*.pst</FileType>
+          <FileType>*.mb</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="办公类.MS_PPT" SoftVersion="Oice exe" Process="Oice.exe" system="1" id="3">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.tmp</FileType>
+          <FileType>*.spl</FileType>
+          <FileType>*.dgx</FileType>
+          <FileType>*.pst</FileType>
+          <FileType>*.mb</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="办公类.MS_Visio" SoftVersion="visio" Process="OriginalFilename@@VISIO.EXE" system="1" id="4">
+      <WindowsControl />
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*.upt</FileType>
+          <FileType>*Microsoft\Templates\*.tmp</FileType>
+          <FileType>*AC\Temp*</FileType>
+          <FileType>*Cookies\index.dat</FileType>
+          <FileType>*Office\Recent*</FileType>
+          <FileType>*Office\OTele*</FileType>
+          <FileType>*temp*.fp</FileType>
+          <FileType>*.pst*</FileType>
+          <FileType>*.ost*</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl>
+        <IpInfo IP="207.46.0.174">
+          <PortInfo>*</PortInfo>
+        </IpInfo>
+        <IpInfo IP="134.170.109.200">
+          <PortInfo>*</PortInfo>
+        </IpInfo>
+        <IpInfo IP="134.170.108.200">
+          <PortInfo>*</PortInfo>
+        </IpInfo>
+      </SocketControl>
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="办公类.MS_Visio" SoftVersion="EQNEDT32.EXE1" Process="OriginalFilename@@EQNEDT32.exe" system="1" id="4">
+      <FileInfo>
+        <Include />
+        <Exclude />
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl>
+        <IpInfo IP="*" />
+      </SocketControl>
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="办公类.WPS_Word" SoftVersion="wps" Process="OriginalFilename@@wps.exe" system="1" id="5">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.cfg</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="办公类.WPS_Word" SoftVersion="GRAPH" Process="GRAPH.EXE" system="1" id="5">
+      <FileInfo>
+        <Include />
+        <Exclude />
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="办公类.WPS_Excel" SoftVersion="ET" Process="OriginalFilename@@et.exe" system="1" id="6">
+      <FileInfo>
+        <Exclude>
+          <FileType>*.cfg</FileType>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*temp*.fp</FileType>
+          <FileType>*~*.tmp</FileType>
+        </Exclude>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="办公类.WPS_Excel" SoftVersion="xpsrchvw.exe.mui" Process="OriginalFilename@@xpsrchvw.exe.mui" system="1" id="6">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="办公类.WPS_PPT" SoftVersion="WPP" Process="OriginalFilename@@wpp.exe" system="1" id="7">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.cfg</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="办公类.MS_记事本" SoftVersion="notepad" Process="OriginalFilename@@NOTEPAD.EXE" system="1" id="8">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+          <FileType>*.mb</FileType>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl>
+      </WindowsControl>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="办公类.MS_记事本" SoftVersion="notepad win7" Process="OriginalFilename@@NOTEPAD.EXE.MUI" system="1" id="8">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+          <FileType>*.mb</FileType>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="办公类.MS_写字板" SoftVersion="WORDPAD 64" Process="OriginalFilename@@WORDPAD.EXE.MUI" system="1" id="9">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.mb</FileType>
+          <FileType>*Cookies\index.dat</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="办公类.MS_写字板" SoftVersion="wordpad " Process="OriginalFilename@@wordpad" system="1" id="9">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.mb</FileType>
+          <FileType>*Cookies\index.dat</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="办公类.PDF" SoftVersion="Foxit Reader.exe" Process="OriginalFilename@@Foxit Reader.exe" system="1" id="10">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="办公类.PDF" SoftVersion="AcroDist.exe" Process="acrodist.exe" system="1" id="10">
+      <FileInfo>
+        <Include>
+          <FileType>*.pdf</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="办公类.PDF" SoftVersion="PDFFactory.exe" Process="fppdis3a.exe" system="1" id="10">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="办公类.PDF" SoftVersion="Adobe Acrobat" Process="OriginalFilename@@Acrobat.exe" system="1" id="10">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.dll</FileType>
+          <FileType>*.exe</FileType>
+          <FileType>*.ocx</FileType>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.chs</FileType>
+          <FileType>*.myd</FileType>
+          <FileType>*.myi</FileType>
+          <FileType>*.db</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="办公类.PDF" SoftVersion="Adobe Reader 5.0.exe" Process="acelite.exe" system="1" id="10">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.chs</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="办公类.PDF" SoftVersion="SSReader.exe" Process="SSReader.exe" system="1" id="10">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.dat</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*.mb</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="办公类.PDF" SoftVersion="Pdl.exe" Process="pdl.exe" system="1" id="10">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.dat</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*.mb</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="办公类.PDF" SoftVersion="logtransport2" Process="logtransport2.exe" system="1" id="10">
+      <FileInfo>
+        <Include>
+          <FileType>*.*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.exe</FileType>
+          <FileType>*.ocx</FileType>
+          <FileType>*.dll</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="办公类.PDF" SoftVersion="FoxITReader2.0.exe" Process="foxitreader2.0.exe" system="1" id="10">
+      <FileInfo>
+        <Include />
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="办公类.PDF" SoftVersion="FoxITRead.exe" Process="fxdecod1.dll" system="1" id="10">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="办公类.PDF" SoftVersion="acrotray" Process="acrotray.exe" system="1" id="10">
+      <FileInfo>
+        <Include>
+          <FileType>*.*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.exe</FileType>
+          <FileType>*.ocx</FileType>
+          <FileType>*.dll</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="办公类.PDF" SoftVersion="acrodist" Process="acrodist.exe" system="1" id="10">
+      <FileInfo>
+        <Include>
+          <FileType>*.*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.exe</FileType>
+          <FileType>*.ocx</FileType>
+          <FileType>*.dll</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="办公类.PDF" SoftVersion="CAJViewer.exe" Process="OriginalFilename@@CAJViewer.exe" system="1" id="10">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.dat</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*.mb</FileType>
+          <FileType>*spl*.tmp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="办公类.PDF" SoftVersion="Foxitreader.exe" Process="foxitreader.exe" system="1" id="10">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.dat</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*.mb</FileType>
+          <FileType>*spl*.tmp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="办公类.PDF" SoftVersion="Pdfedit.exe" Process="pdfedit.exe" system="1" id="10">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.dat</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*.mb</FileType>
+          <FileType>*spl*.tmp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="办公类.PDF" SoftVersion="迷你pdf阅读器.exe" Process="迷你pdf阅读器.exe" system="1" id="10">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.dat</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*.mb</FileType>
+          <FileType>*spl*.tmp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="办公类.PDF" SoftVersion="Foxitr.exe" Process="foxitr~1.exe" system="1" id="10">
+      <FileInfo>
+        <Include />
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="办公类.PDF" SoftVersion="Adobe Reader 6.0~10.0.exe" Process="OriginalFilename@@AcroRd32.exe" system="1" id="10">
+      <WindowsControl />
+      <FileInfo>
+        <Include>
+          <FileType>*.*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.chs</FileType>
+          <FileType>*lil*.tmp</FileType>
+          <FileType>*Acrobat\*\Cache\*.tmp</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="办公类.MS_Project" SoftVersion="WINPROJ" Process="OriginalFilename@@WINPROJ.EXE" system="1" id="11">
+      <FileInfo>
+        <Include>
+          <FileType>*.mpp</FileType>
+          <FileType>*.mpt</FileType>
+          <FileType>*.pdf</FileType>
+          <FileType>*.xlsx</FileType>
+          <FileType>*.xlsb</FileType>
+          <FileType>*.xls</FileType>
+          <FileType>*.txt</FileType>
+          <FileType>*.csv</FileType>
+          <FileType>*.xml</FileType>
+          <FileType>*.xps</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*Microsoft\Templates\*.tmp</FileType>
+          <FileType>*.upt</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*AC\Temp*</FileType>
+          <FileType>*Cookies\index.dat</FileType>
+          <FileType>*Office\OTele*</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl>
+        <IpInfo IP="207.46.0.174">
+          <PortInfo>*</PortInfo>
+        </IpInfo>
+        <IpInfo IP="134.170.109.200">
+          <PortInfo>*</PortInfo>
+        </IpInfo>
+        <IpInfo IP="134.170.108.200">
+          <PortInfo>*</PortInfo>
+        </IpInfo>
+        <IpInfo IP="*">
+          <PortInfo>*</PortInfo>
+        </IpInfo>
+      </SocketControl>
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="办公类.MS_Project" SoftVersion="EQNEDT32.EXE1" Process="OriginalFilename@@EQNEDT32.exe" system="1" id="11">
+      <FileInfo>
+        <Include />
+        <Exclude />
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <WindowsControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="绘图类.ACDSee" SoftVersion="ACDSee9" Process="ProductName@@ACDSee 9" system="1" id="12">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*ACD Systems\Catalogs*</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="绘图类.ACDSee" SoftVersion="ACDSee8" Process="ProductName@@ACDSee 8" system="1" id="12">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*ACD Systems\Catalogs*</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="绘图类.ACDSee" SoftVersion="ACDSee5" Process="OriginalFilename@@ACDSee.exe" system="1" id="12">
+      <WindowsControl />
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*ACD Systems\Catalogs*</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="绘图类.ACDSee" SoftVersion="ACDSee4" Process="ACDSee.exe" system="1" id="12">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*ACD Systems\Catalogs*</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="绘图类.ACDSee" SoftVersion="ACDSee7" Process="ProductName@@ACDSee 7" system="1" id="12">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*ACD Systems\Catalogs*</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="绘图类.ACDSee" SoftVersion="ACDSee6" Process="ProductName@@ACDSee 6" system="1" id="12">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*ACD Systems\Catalogs*</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="绘图类.ACDSee" SoftVersion="ACDSeeqv" Process="OriginalFilename@@ACDSeeQV.exe" system="1" id="12">
+      <FileInfo>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*ACD Systems\Catalogs*</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Exclude>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="绘图类.ACDSee" SoftVersion="ACDSee10" Process="OriginalFileName@@ACDSee10.exe" system="1" id="12">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*.dbf</FileType>
+          <FileType>*ACD Systems\Catalogs*</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="绘图类.ACDSee" SoftVersion="ACDSee5FotoCanvas" Process="OriginalFileName@@FotoCanvas.exe" system="1" id="12">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+          <FileType>*ACD Systems\Catalogs*</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="绘图类.ISee" SoftVersion="ISee" Process="OriginalFilename@@iSee.exe" system="1" id="13">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="绘图类.ISee" SoftVersion="iSeeQView" Process="OriginalFilename@@iSeeQView.exe" system="1" id="13">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl>
+        <ModuleInfo>*##浏览文件夹</ModuleInfo>
+      </WindowsControl>
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="绘图类.Photoshop" SoftVersion="PhotoShop" Process="OriginalFilename@@Photoshop.exe" system="1" id="14">
+      <FileInfo>
+        <Include>
+          <FileType>*.jpeg</FileType>
+          <FileType>*.tiff</FileType>
+          <FileType>*.vda</FileType>
+          <FileType>*.tif</FileType>
+          <FileType>*.pdf</FileType>
+          <FileType>*.jpg</FileType>
+          <FileType>*.psd</FileType>
+          <FileType>*.bmp</FileType>
+          <FileType>*.gif</FileType>
+          <FileType>*.eps</FileType>
+          <FileType>*.pcx</FileType>
+          <FileType>*.pct</FileType>
+          <FileType>*.pxr</FileType>
+          <FileType>*.png</FileType>
+          <FileType>*.raw</FileType>
+          <FileType>*.pdd</FileType>
+          <FileType>*.rle</FileType>
+          <FileType>*.dib</FileType>
+          <FileType>*.jpe</FileType>
+          <FileType>*.pdp</FileType>
+          <FileType>*pict</FileType>
+          <FileType>*sct</FileType>
+          <FileType>*.tga</FileType>
+          <FileType>*.icb</FileType>
+          <FileType>*.vst</FileType>
+          <FileType>*.html</FileType>
+          <FileType>*.psb</FileType>
+          <FileType>*.dcm</FileType>
+          <FileType>*.dc3</FileType>
+          <FileType>*dic</FileType>
+          <FileType>*.iff</FileType>
+          <FileType>*.tdi</FileType>
+          <FileType>*.jpf</FileType>
+          <FileType>*.jpx</FileType>
+          <FileType>*.jp2</FileType>
+          <FileType>*.j2c</FileType>
+          <FileType>*.j2k</FileType>
+          <FileType>*.pbm</FileType>
+          <FileType>*.pgm</FileType>
+          <FileType>*.ppm</FileType>
+          <FileType>*.pn*</FileType>
+          <FileType>*ps*.tmp</FileType>
+          <FileType>*.xps</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.db</FileType>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.exe</FileType>
+          <FileType>*.dll</FileType>
+          <FileType>*.ocx</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl>
+        <ModuleInfo>*##*存储*</ModuleInfo>
+      </WindowsControl>
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="绘图类.Photoshop" SoftVersion="Adobelmsvc.exe" Process="Adobelmsvc.exe" system="1" id="14">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.exe</FileType>
+          <FileType>*.dll</FileType>
+          <FileType>*.ocx</FileType>
+          <FileType>*.tmp</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="绘图类.Photoshop" SoftVersion="rundll32.exe" Process="rundll32.exe" system="1" id="14">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.exe</FileType>
+          <FileType>*.dll</FileType>
+          <FileType>*.ocx</FileType>
+          <FileType>*.tmp</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="绘图类.CorelDraw" SoftVersion="CorelDraw9" Process="OriginalFilename@@TRACE.EXE" system="1" id="15">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+          <FileType>*spl*.tmp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="绘图类.CorelDraw" SoftVersion="winsptis.exe" Process="winsptis.exe" system="1" id="15">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.dll</FileType>
+          <FileType>*.exe</FileType>
+          <FileType>*.ocx</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="绘图类.CorelDraw" SoftVersion="CorelDraw " Process="OriginalFilename@@CorelDrw.exe" system="1" id="15">
+      <FileInfo>
+        <Include>
+          <FileType>*.cdr</FileType>
+          <FileType>*.doc</FileType>
+          <FileType>*.bmp</FileType>
+          <FileType>*.png</FileType>
+          <FileType>*cdt</FileType>
+          <FileType>*.clk</FileType>
+          <FileType>*.des</FileType>
+          <FileType>*.csl</FileType>
+          <FileType>*.cmx</FileType>
+          <FileType>*.ai</FileType>
+          <FileType>*.wpg</FileType>
+          <FileType>*.wmf</FileType>
+          <FileType>*.emf</FileType>
+          <FileType>*.cgm</FileType>
+          <FileType>*.svg</FileType>
+          <FileType>*.svgz</FileType>
+          <FileType>*.pct</FileType>
+          <FileType>*.dxt</FileType>
+          <FileType>*.dwg</FileType>
+          <FileType>*.plt</FileType>
+          <FileType>*.fmv</FileType>
+          <FileType>*.gem</FileType>
+          <FileType>*.xps</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.ini</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="绘图类.3DMAX" SoftVersion="3dsmax" Process="OriginalFilename@@3dsmax.exe" system="1" id="16">
+      <WindowsControl />
+      <FileInfo>
+        <Include>
+          <FileType>*.max</FileType>
+          <FileType>*.chr</FileType>
+          <FileType>*.dwf</FileType>
+          <FileType>*.fbx</FileType>
+          <FileType>*.3ds</FileType>
+          <FileType>*.ai</FileType>
+          <FileType>*.ase</FileType>
+          <FileType>*.atr</FileType>
+          <FileType>*.blk</FileType>
+          <FileType>*.dae</FileType>
+          <FileType>*.df</FileType>
+          <FileType>*.dwg</FileType>
+          <FileType>*.dxf</FileType>
+          <FileType>*.flt</FileType>
+          <FileType>*.htr</FileType>
+          <FileType>*.igs</FileType>
+          <FileType>*.lay</FileType>
+          <FileType>*.lp</FileType>
+          <FileType>*.m3g</FileType>
+          <FileType>*.obj</FileType>
+          <FileType>*.sat</FileType>
+          <FileType>*.stl</FileType>
+          <FileType>*.vw</FileType>
+          <FileType>*.w3d</FileType>
+          <FileType>*wrl</FileType>
+          <FileType>*.jpg</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.dsk</FileType>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="绘图类.Microsoft Photo Editor" SoftVersion="photoed.exe" Process="photoed.exe" system="1" id="17">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.mb</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="绘图类.illustrator" SoftVersion="ILLUSTRATOR.EXE" Process="illustrator.exe" system="1" id="18">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.db</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="绘图类.RHINO" SoftVersion="Rhinoceros 4.0" Process="Rhino4.exe" system="1" id="19">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="绘图类.RHINO" SoftVersion="RHINO3 exe" Process="rhino3.exe" system="1" id="19">
+      <FileInfo>
+        <Include>
+          <FileType>*.pfb</FileType>
+          <FileType>*.ppf</FileType>
+          <FileType>*.jp2</FileType>
+          <FileType>*.fpx</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="绘图类.RHINO" SoftVersion="RHINO exe" Process="rhino.exe" system="1" id="19">
+      <FileInfo>
+        <Include>
+          <FileType>*.pfb</FileType>
+          <FileType>*.ppf</FileType>
+          <FileType>*.jp2</FileType>
+          <FileType>*.fpx</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="绘图类.Flash" SoftVersion="flash cs3" Process="OriginalFilename@@Flash.exe" system="1" id="20">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.mlf</FileType>
+          <FileType>*.xml</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*spl*.tmp</FileType>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="绘图类.Flash" SoftVersion="saflashplayer" Process="saflashplayer.exe" system="1" id="20">
+      <FileInfo>
+        <Include />
+        <Exclude>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="设计类.CAXA" SoftVersion="CAXA2005图纸管理" Process="OriginalFilename@@DrawingMan.exe" system="1" id="22">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="设计类.CAXA" SoftVersion="CAXA2005打印排版" Process="OriginalFilename@@Typeset.exe" system="1" id="22">
+      <FileInfo>
+        <Include>
+          <FileType>*.typ</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="设计类.CAXA" SoftVersion="CAXA2005 Electric Board" Process="OriginalFilename@@EB.EXE" system="1" id="22">
+      <FileInfo>
+        <Include>
+          <FileType>*.exb</FileType>
+          <FileType>*.tpl</FileType>
+          <FileType>*.dwg</FileType>
+          <FileType>*.dxf</FileType>
+          <FileType>*.plt</FileType>
+          <FileType>*.igs</FileType>
+          <FileType>*.bmp</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="设计类.CAXA" SoftVersion="CAXA2005 ExbShow" Process="OriginalFilename@@ExbShow.EXE" system="1" id="22">
+      <FileInfo>
+        <Include>
+          <FileType>*.exb</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="设计类.CAXA" SoftVersion="CAXA 2001" Process="CDRAFT_M.EXE" system="1" id="22">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+          <FileType>*spl*.tmp</FileType>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="设计类.CAXA" SoftVersion="CAXA DRAFT 2009" Process="OriginalFilename@@CAXA DRAFT" system="1" id="22">
+      <FileInfo>
+        <Include>
+          <FileType>*.exb</FileType>
+          <FileType>*.tpl</FileType>
+          <FileType>*.dwg</FileType>
+          <FileType>*.dxf</FileType>
+          <FileType>*.igs</FileType>
+          <FileType>*.bmp</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="设计类.CAXA" SoftVersion="CAXA IRONCAD 2009" Process="FileDescription@@IRONCAD2009" system="1" id="22">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.mb</FileType>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="设计类.CAXA" SoftVersion="CAXA IRONCAD 2009 ICViewer" Process="ProductName@@ICViewer" system="1" id="22">
+      <FileInfo>
+        <Include>
+          <FileType>*.ics</FileType>
+          <FileType>*.hsf</FileType>
+          <FileType>*.hmf</FileType>
+          <FileType>*.stl</FileType>
+          <FileType>*.obj</FileType>
+          <FileType>*.wrl</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="设计类.AutoCad" SoftVersion="autocad" Process="OriginalFilename@@ACAD.EXE" system="1" id="23">
+      <FileInfo>
+        <Include>
+          <FileType>*.dwg</FileType>
+          <FileType>*.bak</FileType>
+          <FileType>*.mdb</FileType>
+          <FileType>*.xls</FileType>
+          <FileType>*.txt</FileType>
+          <FileType>*.csv</FileType>
+          <FileType>*.blk</FileType>
+          <FileType>*.3ds</FileType>
+          <FileType>*.bmp</FileType>
+          <FileType>*.dxx</FileType>
+          <FileType>*.eps</FileType>
+          <FileType>*.stl</FileType>
+          <FileType>*.wmf</FileType>
+          <FileType>*.sat</FileType>
+          <FileType>*.png</FileType>
+          <FileType>*.jpg</FileType>
+          <FileType>*.dwf</FileType>
+          <FileType>*.tif</FileType>
+          <FileType>*.tga</FileType>
+          <FileType>*.zip</FileType>
+          <FileType>*.dxf</FileType>
+          <FileType>*.dws</FileType>
+          <FileType>*.plt</FileType>
+          <FileType>*.pdf</FileType>
+          <FileType>*.dwt</FileType>
+          <FileType>*.dwfx</FileType>
+          <FileType>*.fbx</FileType>
+          <FileType>*.dgn</FileType>
+          <FileType>*.igs</FileType>
+          <FileType>*.iges</FileType>
+          <FileType>*sav*.tmp</FileType>
+          <FileType>*.xps</FileType>
+          <FileType>*mai*.tmp</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*adskfle*.data</FileType>
+          <FileType>*.aws</FileType>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="设计类.中望CAD" SoftVersion="zwcad2012" Process="MD5==6422d3aace90262050d79bb56e7e56df" system="1" id="24">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.data</FileType>
+          <FileType>*.aws</FileType>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*ZWSOFT\ZWCAD*</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="设计类.中望CAD" SoftVersion="zwcad2010" Process="MD5==15f69e7c108a75a8592e8e315a499c06" system="1" id="24">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.data</FileType>
+          <FileType>*.aws</FileType>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*ZWSOFT\ZWCAD*</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="设计类.SolidEdge" SoftVersion="SolidEdge" Process="edge.exe" system="1" id="25">
+      <WindowsControl />
+      <FileInfo>
+        <Include>
+          <FileType>*.par</FileType>
+          <FileType>*.asm</FileType>
+          <FileType>*.dft</FileType>
+          <FileType>*.psm</FileType>
+          <FileType>*.pwd</FileType>
+          <FileType>*.igs</FileType>
+          <FileType>*.jt</FileType>
+          <FileType>*.sat</FileType>
+          <FileType>*.stp</FileType>
+          <FileType>*.x_b</FileType>
+          <FileType>*.x_t</FileType>
+          <FileType>*.dwg</FileType>
+          <FileType>*.dxf</FileType>
+          <FileType>*.tgl</FileType>
+          <FileType>*.plmxml</FileType>
+          <FileType>*.ems</FileType>
+          <FileType>*.stl</FileType>
+          <FileType>*.bkm</FileType>
+          <FileType>*.dgn</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="设计类.Pro/E" SoftVersion="模具设计EMX4.1" Process="Wish80.exe" system="1" id="26">
+      <FileInfo>
+        <Include>
+          <FileType>*.dwt</FileType>
+          <FileType>*.dxf</FileType>
+          <FileType>*.dwg</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl>
+      </WindowsControl>
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="设计类.Pro/E" SoftVersion="转换Convertion" Process="Pro_acadconv.exe" system="1" id="26">
+      <FileInfo>
+        <Include>
+          <FileType>*.dxf</FileType>
+          <FileType>*.dwg</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="设计类.Pro/E" SoftVersion="Wildfird1.0/2.0/3.0" Process="xtop.exe" system="1" id="26">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+          <FileType>*.mnl</FileType>
+          <FileType>*.mnf</FileType>
+          <FileType>*.mcd</FileType>
+          <FileType>*.mdb</FileType>
+          <FileType>*.mpg</FileType>
+          <FileType>*.model</FileType>
+          <FileType>*.log</FileType>
+          <FileType>*.pro</FileType>
+          <FileType>*.txt</FileType>
+          <FileType>*.mb</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl>
+        <ModuleInfo>Dialog##保存对象</ModuleInfo>
+        <ModuleInfo>Dialog##保存副本</ModuleInfo>
+        <ModuleInfo>Dialog##备份</ModuleInfo>
+      </WindowsControl>
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="设计类.Pro/E" SoftVersion="Service" Process="nfsserv.exe" system="1" id="26">
+      <FileInfo>
+        <Include>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="设计类.Pro/E" SoftVersion="4.0转换dwg" Process="Pro_acadconv_2.exe" system="1" id="26">
+      <FileInfo>
+        <Include>
+          <FileType>*.dwg</FileType>
+          <FileType>*.dxf</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="设计类.Pro/E" SoftVersion="mc_server" Process="mc_server.exe" system="1" id="26">
+      <FileInfo>
+        <Include>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="设计类.Pro/E" SoftVersion="NMSQ" Process="nmsq.exe" system="1" id="26">
+      <FileInfo>
+        <Include>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="设计类.Pro/E" SoftVersion="NMSD" Process="nmsd.exe" system="1" id="26">
+      <FileInfo>
+        <Include>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="设计类.Pro/E" SoftVersion="pro_comm_msg" Process="pro_comm_msg.exe" system="1" id="26">
+      <FileInfo>
+        <Include>
+          <FileType>.NOCONTROL</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="设计类.Catia" SoftVersion="catia" Process="OriginalFilename@@CNEXT.exe" system="1" id="27">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+          <FileType>*.mb</FileType>
+          <FileType>*spl*.tmp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="设计类.UG" SoftVersion="Step203ug" Process="Step203ug.exe" system="1" id="28">
+      <FileInfo>
+        <Include>
+          <FileType>*.stp</FileType>
+          <FileType>*.step</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="设计类.UG" SoftVersion="iges" Process="iges.exe" system="1" id="28">
+      <FileInfo>
+        <Include>
+          <FileType>*.igs</FileType>
+          <FileType>*.iges</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="设计类.UG" SoftVersion="Dxf/Dwg" Process="Dxfdwg.exe" system="1" id="28">
+      <FileInfo>
+        <Include>
+          <FileType>*.dwg</FileType>
+          <FileType>*.dxf</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="设计类.UG" SoftVersion="Uglmd" Process="Uglmd.exe" system="1" id="28">
+      <FileInfo>
+        <Include>
+          <FileType>*.dwg</FileType>
+          <FileType>*.stp</FileType>
+          <FileType>*.step</FileType>
+          <FileType>*.iges</FileType>
+          <FileType>*.prt</FileType>
+          <FileType>*.dxf</FileType>
+          <FileType>*.model</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="设计类.UG" SoftVersion="Ugto2d" Process="Ugto2d.exe" system="1" id="28">
+      <FileInfo>
+        <Include>
+          <FileType>*.dwg</FileType>
+          <FileType>*.stp</FileType>
+          <FileType>*.step</FileType>
+          <FileType>*.iges</FileType>
+          <FileType>*.prt</FileType>
+          <FileType>*.dxf</FileType>
+          <FileType>*.model</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="设计类.UG" SoftVersion="Step214ug" Process="Step214ug.exe" system="1" id="28">
+      <FileInfo>
+        <Include>
+          <FileType>*.stp</FileType>
+          <FileType>*.step</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="设计类.UG" SoftVersion="Ugraf" Process="Ugraf.exe" system="1" id="28">
+      <FileInfo>
+        <Include>
+          <FileType>*.dwg</FileType>
+          <FileType>*.stp</FileType>
+          <FileType>*.step</FileType>
+          <FileType>*.iges</FileType>
+          <FileType>*.prt</FileType>
+          <FileType>*.dxf</FileType>
+          <FileType>*.model</FileType>
+          <FileType>*.x_t</FileType>
+          <FileType>*.pdf</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="设计类.UG" SoftVersion="ugs_router" Process="ugs_router.exe" system="1" id="28">
+      <FileInfo>
+        <Include>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="设计类.Matlab" SoftVersion="meditor.exe" Process="OriginalFilename@@meditor.exe" system="1" id="29">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="设计类.Matlab" SoftVersion="Matlab7.1" Process="matlab.exe" system="1" id="29">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+          <FileType>*.mb</FileType>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.tmp</FileType>
+          <FileType>*.exe</FileType>
+          <FileType>*.dll</FileType>
+          <FileType>*.ocx</FileType>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="设计类.浩辰CAD" SoftVersion="浩辰CAD2010" Process="icad.exe" system="1" id="30">
+      <FileInfo>
+        <Include>
+          <FileType>*.dwg</FileType>
+          <FileType>*.dws</FileType>
+          <FileType>*.dwt</FileType>
+          <FileType>*.dxf</FileType>
+          <FileType>*.dwf</FileType>
+          <FileType>*.bak</FileType>
+          <FileType>*.xps</FileType>
+          <FileType>*.pdf</FileType>
+          <FileType>*.jpg</FileType>
+          <FileType>*.png</FileType>
+        </Include>
+        <Exclude>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="设计类.Mplab" SoftVersion="mplab" Process="mplab.exe" system="1" id="31">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+          <FileType>*.mb</FileType>
+          <FileType>*spl*.tmp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="设计类BetterWM" SoftVersion="bclipbrd" Process="bclipbrd.exe" system="1" id="32">
+      <FileInfo>
+        <Include />
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="设计类.Mastercam" SoftVersion="Mastercam9.1" Process="Mill9.exe" system="1" id="33">
+      <FileInfo>
+        <Include>
+          <FileType>*.dwg</FileType>
+          <FileType>*.dxf</FileType>
+          <FileType>*.mc9</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="设计类.Keyshot" SoftVersion="keyshot3" Process="luxion_geometry_exe" system="1" id="34">
+      <FileInfo>
+        <Include>
+          <FileType>*.3DM</FileType>
+          <FileType>*.3DS</FileType>
+          <FileType>*.obj</FileType>
+          <FileType>*.IGES</FileType>
+          <FileType>*.PRT</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="设计类.freeHand MX" SoftVersion="freeHand MX.exe" Process="freeHand MX.exe" system="1" id="35">
+      <FileInfo>
+        <Include>
+          <FileType>*.txt</FileType>
+          <FileType>*.ai</FileType>
+          <FileType>*.bmp</FileType>
+          <FileType>*.eps</FileType>
+          <FileType>*.gif</FileType>
+          <FileType>*.jpg</FileType>
+          <FileType>*.swf</FileType>
+          <FileType>*.pdf</FileType>
+          <FileType>*.png</FileType>
+          <FileType>*.psd</FileType>
+          <FileType>*.rtf </FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="设计类.showcase" SoftVersion="showcase.exe" Process="showcase.exe" system="1" id="36">
+      <FileInfo>
+        <Include>
+          <FileType>*.db</FileType>
+          <FileType>*.apf</FileType>
+          <FileType>*.a3s</FileType>
+          <FileType>*.avi</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="设计类.Cnckad" SoftVersion="gkadw.exe" Process="gkadw.exe" system="1" id="37">
+      <FileInfo>
+        <Include>
+          <FileType>*.dxf</FileType>
+          <FileType>*.igea</FileType>
+          <FileType>*.cadl</FileType>
+          <FileType>*.sldprt</FileType>
+          <FileType>*.sldasm</FileType>
+          <FileType>*.prt</FileType>
+          <FileType>*.dwg</FileType>
+          <FileType>*.dwt</FileType>
+          <FileType>*.dwf</FileType>
+          <FileType>*.dws</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="设计类.ConversionOleID" SoftVersion="ConversionOleID.exe" Process="ConversionOleID.exe" system="1" id="38">
+      <FileInfo>
+        <Include>
+          <FileType>*.dwg</FileType>
+          <FileType>*.dwt</FileType>
+          <FileType>*.dwf</FileType>
+          <FileType>*.dws</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="管理类.U8" SoftVersion="UFO报表" Process="ufow.exe" system="1" id="39">
+      <FileInfo>
+        <Include>
+          <FileType>*.xls</FileType>
+          <FileType>*.rep</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="管理类.U8" SoftVersion="总账" Process="zwsql.exe" system="1" id="39">
+      <FileInfo>
+        <Include>
+          <FileType>*.rep</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="管理类.U8" SoftVersion="应收款" Process="arsql.exe" system="1" id="39">
+      <FileInfo>
+        <Include>
+          <FileType>*.rep</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="管理类.U8" SoftVersion="应付款" Process="apsql.exe" system="1" id="39">
+      <FileInfo>
+        <Include>
+          <FileType>*.rep</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="管理类.U8" SoftVersion="固定资产" Process="gdzcsql.exe" system="1" id="39">
+      <FileInfo>
+        <Include>
+          <FileType>*.rep</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="管理类.U8" SoftVersion="工资" Process="gzsql.exe" system="1" id="39">
+      <FileInfo>
+        <Include>
+          <FileType>*.rep</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="管理类.U8" SoftVersion="成本管理" Process="uscbhs.exe" system="1" id="39">
+      <FileInfo>
+        <Include>
+          <FileType>*.rep</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="管理类.U8" SoftVersion="Ufadmin" Process="ufadmin.exe" system="1" id="39">
+      <FileInfo>
+        <Include />
+        <Exclude>
+          <FileType>*.mb</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="管理类.U8" SoftVersion="Uflogin" Process="uflogin.exe" system="1" id="39">
+      <FileInfo>
+        <Include />
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="管理类.U8" SoftVersion="存货核算" Process="chhssql.exe" system="1" id="39">
+      <FileInfo>
+        <Include>
+          <FileType>*.rep</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="管理类.U8" SoftVersion="库存管理" Process="kcglsql.exe" system="1" id="39">
+      <FileInfo>
+        <Include>
+          <FileType>*.rep</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="管理类.U8" SoftVersion="销售管理" Process="xsglsql.exe" system="1" id="39">
+      <FileInfo>
+        <Include>
+          <FileType>*.rep</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="管理类.U8" SoftVersion="采购管理" Process="cgglsql.exe" system="1" id="39">
+      <FileInfo>
+        <Include>
+          <FileType>*.rep</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="管理类.U8" SoftVersion="U852" Process="portal.exe" system="1" id="39">
+      <FileInfo>
+        <Include>
+          <FileType>*.rep</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="管理类.U8" SoftVersion="EAI" Process="eaiogin.exe" system="1" id="39">
+      <FileInfo>
+        <Include>
+          <FileType>*.rep</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="1" IsCharacteristic="0" SoftType="管理类.SVN" SoftVersion="TSVNCache.exe" Process="TSVNCache.exe" system="1" id="40">
+      <FileInfo>
+        <Include>
+          <FileType>*.txt</FileType>
+          <FileType>*.java</FileType>
+          <FileType>*.class</FileType>
+          <FileType>*.XML</FileType>
+          <FileType>*.properties</FileType>
+          <FileType>*.db</FileType>
+          <FileType>*.wav</FileType>
+          <FileType>*.bat</FileType>
+          <FileType>*.dll</FileType>
+          <FileType>*.jrxml</FileType>
+          <FileType>*.log</FileType>
+          <FileType>*.jar</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="管理类.SVN" SoftVersion="VisualSVNServer.exe" Process="VisualSVNServer.exe" system="1" id="40">
+      <FileInfo>
+        <Include>
+          <FileType>*.txt</FileType>
+          <FileType>*.java</FileType>
+          <FileType>*.class</FileType>
+          <FileType>*.XML</FileType>
+          <FileType>*.properties</FileType>
+          <FileType>*.db</FileType>
+          <FileType>*.wav</FileType>
+          <FileType>*.bat</FileType>
+          <FileType>*.dll</FileType>
+          <FileType>*.jrxml</FileType>
+          <FileType>*.log</FileType>
+          <FileType>*.jar</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="管理类.CVS" SoftVersion="TortoiseAct.exe" Process="TortoiseAct.exe" system="1" id="41">
+      <FileInfo>
+        <Include>
+          <FileType>*.mpp</FileType>
+          <FileType>*.vsd</FileType>
+          <FileType>*.ppt</FileType>
+          <FileType>*.zip</FileType>
+          <FileType>*.m</FileType>
+          <FileType>*.xls</FileType>
+          <FileType>*.txt</FileType>
+          <FileType>*.pdf</FileType>
+          <FileType>*.tsk</FileType>
+          <FileType>*.dbf</FileType>
+          <FileType>*.prj</FileType>
+          <FileType>*.doc</FileType>
+          <FileType>*.cpp</FileType>
+          <FileType>*.mat</FileType>
+          <FileType>*.mdl</FileType>
+          <FileType>*.h</FileType>
+          <FileType>*.c</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="管理类.CVS" SoftVersion="cvs.exe" Process="cvs.exe" system="1" id="41">
+      <FileInfo>
+        <Include>
+          <FileType>*.mpp</FileType>
+          <FileType>*.vsd</FileType>
+          <FileType>*.ppt</FileType>
+          <FileType>*.zip</FileType>
+          <FileType>*.m</FileType>
+          <FileType>*.xls</FileType>
+          <FileType>*.txt</FileType>
+          <FileType>*.pdf</FileType>
+          <FileType>*.tsk</FileType>
+          <FileType>*.dbf</FileType>
+          <FileType>*.prj</FileType>
+          <FileType>*.doc</FileType>
+          <FileType>*.cpp</FileType>
+          <FileType>*.mat</FileType>
+          <FileType>*.mdl</FileType>
+          <FileType>*.h</FileType>
+          <FileType>*.c</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="管理类.TeamCenter" SoftVersion="java" Process="java.exe" system="1" id="42">
+      <FileInfo>
+        <Include>
+          <FileType>*.dwg</FileType>
+          <FileType>*.catproduct</FileType>
+          <FileType>*.catpart</FileType>
+          <FileType>*.catdrwing</FileType>
+          <FileType>*.prt.*</FileType>
+          <FileType>*.prt</FileType>
+          <FileType>*.asm.*</FileType>
+          <FileType>*.asm</FileType>
+          <FileType>*.drw</FileType>
+          <FileType>*.drw.*</FileType>
+          <FileType>*.doc</FileType>
+          <FileType>*.docx</FileType>
+          <FileType>*.xls</FileType>
+          <FileType>*.xlsx</FileType>
+          <FileType>*.ppt</FileType>
+          <FileType>*.catdrawing</FileType>
+          <FileType>*.pdf</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*\Siemens\*\env\seedpart_CAA.CATPart</FileType>
+          <FileType>*portal\temp*</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="管理类.TeamCenter" SoftVersion="javaw" Process="javaw.exe" system="1" id="42">
+      <FileInfo>
+        <Include>
+          <FileType>*.dwg</FileType>
+          <FileType>*.catproduct</FileType>
+          <FileType>*.catpart</FileType>
+          <FileType>*.catdrwing</FileType>
+          <FileType>*.prt.*</FileType>
+          <FileType>*.prt</FileType>
+          <FileType>*.asm.*</FileType>
+          <FileType>*.asm</FileType>
+          <FileType>*.drw</FileType>
+          <FileType>*.drw.*</FileType>
+          <FileType>*.doc</FileType>
+          <FileType>*.docx</FileType>
+          <FileType>*.xls</FileType>
+          <FileType>*.xlsx</FileType>
+          <FileType>*.ppt</FileType>
+          <FileType>*.catdrawing</FileType>
+          <FileType>*.pdf</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*\Siemens\*\env\seedpart_CAA.CATPart</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="管理类.TeamCenter" SoftVersion="Teamcenter" Process="Teamcenter.exe" system="1" id="42">
+      <FileInfo>
+        <Include>
+          <FileType>*.catproduct</FileType>
+          <FileType>*.catpart</FileType>
+          <FileType>*.catdrwing</FileType>
+          <FileType>*.prt.*</FileType>
+          <FileType>*.prt</FileType>
+          <FileType>*.asm.*</FileType>
+          <FileType>*.asm</FileType>
+          <FileType>*.drw</FileType>
+          <FileType>*.drw.*</FileType>
+          <FileType>*.doc</FileType>
+          <FileType>*.catdrawing</FileType>
+          <FileType>*.pdf</FileType>
+          <FileType>*.xls</FileType>
+          <FileType>*.blank</FileType>
+          <FileType>*.docx</FileType>
+          <FileType>*.xlsx</FileType>
+          <FileType>*.ppt</FileType>
+          <FileType>*.pptx</FileType>
+          <FileType>*.dwg</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*\Siemens\*\seedpart_CAA.CATPart</FileType>
+          <FileType>*\Siemens\*seedpart_CAA.CATPart</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="管理类.TeamCenter" SoftVersion="visview" Process="visview.exe" system="1" id="42">
+      <FileInfo>
+        <Include />
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="管理类.TeamCenter" SoftVersion="imr_activator" Process="imr_activator.exe" system="1" id="42">
+      <FileInfo>
+        <Include />
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="管理类.TeamCenter" SoftVersion="steptojt" Process="steptojt.exe" system="1" id="42">
+      <FileInfo>
+        <Include />
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="管理类.K3" SoftVersion="kdmain.exe" Process="kdmain.exe" system="1" id="43">
+      <FileInfo>
+        <Include>
+          <FileType>*.xls</FileType>
+          <FileType>*.xlsx</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="管理类.K3" SoftVersion="EBOMAIN.exe" Process="EBOMAIN.exe" system="1" id="43">
+      <FileInfo>
+        <Include>
+          <FileType>*.xls</FileType>
+          <FileType>*.xlsx</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="splwow64" SoftVersion="splwow64" Process="splwow64.exe" system="1" id="44">
+      <FileInfo>
+        <Include>
+          <FileType>*.*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.exe</FileType>
+          <FileType>*.dll</FileType>
+          <FileType>*.sys</FileType>
+          <FileType>*.ocx</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*.fp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="xps打印机" SoftVersion="xpsrchvw" Process="xpsrchvw.exe" system="1" id="45">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="xps打印机" SoftVersion="xpsviewer" Process="xpsviewer.exe" system="1" id="45">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="设计类.solidworks" SoftVersion="solidworks" Process="OriginalFilename@@SldWorks.Exe" system="1" id="46">
+      <FileInfo>
+        <Include>
+          <FileType>*.pdf</FileType>
+          <FileType>*.vda</FileType>
+          <FileType>*.jpg</FileType>
+          <FileType>*.tif</FileType>
+          <FileType>*.eprt</FileType>
+          <FileType>*.zgl</FileType>
+          <FileType>*.hcg</FileType>
+          <FileType>*.hsf</FileType>
+          <FileType>*.idb</FileType>
+          <FileType>*.brd</FileType>
+          <FileType>*.emn</FileType>
+          <FileType>*.cgr</FileType>
+          <FileType>*.stl</FileType>
+          <FileType>*.wrl</FileType>
+          <FileType>*.edrw</FileType>
+          <FileType>*.ckd</FileType>
+          <FileType>*.par</FileType>
+          <FileType>*.ipt</FileType>
+          <FileType>*.slddrw</FileType>
+          <FileType>*.sldprt</FileType>
+          <FileType>*.xps</FileType>
+          <FileType>*.sldasm</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.dll</FileType>
+          <FileType>*.exe</FileType>
+          <FileType>*.ocx</FileType>
+          <FileType>*.sys</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="设计类.solidworks" SoftVersion="solidworksexplorer" Process="solidworksexplorer.exe" system="1" id="46">
+      <FileInfo>
+        <Include>
+          <FileType>*.pdf</FileType>
+          <FileType>*.vda</FileType>
+          <FileType>*.jpg</FileType>
+          <FileType>*.tif</FileType>
+          <FileType>*.eprt</FileType>
+          <FileType>*.zgl</FileType>
+          <FileType>*.hcg</FileType>
+          <FileType>*.hsf</FileType>
+          <FileType>*.idb</FileType>
+          <FileType>*.brd</FileType>
+          <FileType>*.emn</FileType>
+          <FileType>*.cgr</FileType>
+          <FileType>*.stl</FileType>
+          <FileType>*.wrl</FileType>
+          <FileType>*.edrw</FileType>
+          <FileType>*.ckd</FileType>
+          <FileType>*.par</FileType>
+          <FileType>*.ipt</FileType>
+          <FileType>*.sldasm</FileType>
+          <FileType>*.slddrw</FileType>
+          <FileType>*.sldprt</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="设计类.solidworks" SoftVersion="swspmanager" Process="swspmanager.exe" system="1" id="46">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.dll</FileType>
+          <FileType>*.exe</FileType>
+          <FileType>*.ocx</FileType>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="设计类.solidworks" SoftVersion="sldshellextserver" Process="sldshellextserver.exe" system="1" id="46">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.dll</FileType>
+          <FileType>*.exe</FileType>
+          <FileType>*.ocx</FileType>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="编译类.Tasking" SoftVersion="conime" Process="conime.exe" system="1" id="47">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.dll</FileType>
+          <FileType>*.exe</FileType>
+          <FileType>*.ocx</FileType>
+          <FileType>*.chs</FileType>
+          <FileType>*.tmp</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="编译类.Tasking" SoftVersion="cmd" Process="cmd.exe" system="1" id="47">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.dll</FileType>
+          <FileType>*.exe</FileType>
+          <FileType>*.ocx</FileType>
+          <FileType>*.tmp</FileType>
+          <FileType>*.chs</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="编译类.Tasking" SoftVersion="c166" Process="c166.exe" system="1" id="47">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.dll</FileType>
+          <FileType>*.exe</FileType>
+          <FileType>*.ocx</FileType>
+          <FileType>*.tmp</FileType>
+          <FileType>*.chs</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="编译类.Tasking" SoftVersion="lk166" Process="lk166.exe" system="1" id="47">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.dll</FileType>
+          <FileType>*.exe</FileType>
+          <FileType>*.ocx</FileType>
+          <FileType>*.tmp</FileType>
+          <FileType>*.chs</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="编译类.Tasking" SoftVersion="as166" Process="as166.exe" system="1" id="47">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.dll</FileType>
+          <FileType>*.exe</FileType>
+          <FileType>*.tmp</FileType>
+          <FileType>*.ocx</FileType>
+          <FileType>*.chs</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="编译类.Tasking" SoftVersion="amk" Process="amk.exe" system="1" id="47">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.dll</FileType>
+          <FileType>*.exe</FileType>
+          <FileType>*.tmp</FileType>
+          <FileType>*.ocx</FileType>
+          <FileType>*.chs</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="编译类.Tasking" SoftVersion="eclipse" Process="eclipse.exe" system="1" id="47">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.dll</FileType>
+          <FileType>*.exe</FileType>
+          <FileType>*.tmp</FileType>
+          <FileType>*.ocx</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="编译类.Tasking" SoftVersion="starter" Process="starter.exe" system="1" id="47">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.dll</FileType>
+          <FileType>*.exe</FileType>
+          <FileType>*.ocx</FileType>
+          <FileType>*.tmp</FileType>
+          <FileType>*.chs</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="编译类.Tasking" SoftVersion="cc166" Process="cc166.exe" system="1" id="47">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.dll</FileType>
+          <FileType>*.exe</FileType>
+          <FileType>*.ocx</FileType>
+          <FileType>*.tmp</FileType>
+          <FileType>*.chs</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="编程类.visual studio" SoftVersion="cl" Process="cl.exe" system="1" id="48">
+      <FileInfo>
+        <Include />
+        <Exclude>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="编程类.visual studio" SoftVersion="visual studio" Process="devenv.exe" system="1" id="48">
+      <FileInfo>
+        <Include>
+          <FileType>*.cs</FileType>
+          <FileType>*.c</FileType>
+          <FileType>*.h</FileType>
+          <FileType>*.vb</FileType>
+          <FileType>*.cpp</FileType>
+          <FileType>*.xps</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="编程类.visual studio" SoftVersion="mt" Process="mt.exe" system="1" id="48">
+      <FileInfo>
+        <Include />
+        <Exclude>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="编程类.visual studio" SoftVersion="Covis" Process="Covis.exe" system="1" id="48">
+      <FileInfo>
+        <Include />
+        <Exclude>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="编程类.visual studio" SoftVersion="rc" Process="rc.exe" system="1" id="48">
+      <FileInfo>
+        <Include />
+        <Exclude>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="编程类.visual studio" SoftVersion="MSBuild" Process="MSBuild.exe" system="1" id="48">
+      <FileInfo>
+        <Include />
+        <Exclude>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="设计类Protel" SoftVersion="Client99SE" Process="Client99SE.exe" system="1" id="49">
+      <FileInfo>
+        <Include>
+          <FileType>*.hyp</FileType>
+          <FileType>*.dxf</FileType>
+          <FileType>*.dwg</FileType>
+          <FileType>*.net</FileType>
+          <FileType>*.cam</FileType>
+          <FileType>*.spd</FileType>
+          <FileType>*.ddb</FileType>
+          <FileType>*.pcb</FileType>
+          <FileType>*.sch</FileType>
+          <FileType>*.prj</FileType>
+          <FileType>*.dsn</FileType>
+          <FileType>*.wvf</FileType>
+          <FileType>*.txt</FileType>
+          <FileType>*.ppc</FileType>
+          <FileType>*.lib</FileType>
+          <FileType>*.pdf</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+          <FileType>*Design Explorer 99 SE\Library\Sch*</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="设计类Protel" SoftVersion="client99 exe" Process="client99.exe" system="1" id="49">
+      <FileInfo>
+        <Include>
+          <FileType>*.hyp</FileType>
+          <FileType>*.dxf</FileType>
+          <FileType>*.dwg</FileType>
+          <FileType>*.net</FileType>
+          <FileType>*.cam</FileType>
+          <FileType>*.spd</FileType>
+          <FileType>*.ddb</FileType>
+          <FileType>*.pcb</FileType>
+          <FileType>*.sch</FileType>
+          <FileType>*.prj</FileType>
+          <FileType>*.dsn</FileType>
+          <FileType>*.wvf</FileType>
+          <FileType>*.txt</FileType>
+          <FileType>*.ppc</FileType>
+          <FileType>*.lib</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="设计类Protel" SoftVersion="dxp exe" Process="dxp.exe" system="1" id="49">
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <FileInfo>
+        <Include>
+          <FileType>*.pcb</FileType>
+          <FileType>*.lib</FileType>
+          <FileType>*.ppc</FileType>
+          <FileType>*.txt</FileType>
+          <FileType>*.wvf</FileType>
+          <FileType>*.dsn</FileType>
+          <FileType>*.prj</FileType>
+          <FileType>*.sch</FileType>
+          <FileType>*.ddb</FileType>
+          <FileType>*.spd</FileType>
+          <FileType>*.cam</FileType>
+          <FileType>*.net</FileType>
+          <FileType>*.dxf</FileType>
+          <FileType>*.hyp</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="设计类Protel" SoftVersion="dxp exe" Process="*.dwg" system="1" id="49">
+      <FileInfo>
+        <Include />
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="影音类.Windows Media Player" SoftVersion="Windows Media Player" Process="wmplayer.exe" system="1" id="50">
+      <FileInfo>
+        <Include />
+        <Exclude>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="影音类.暴风影音" SoftVersion="StormPlayer" Process="StormPlayer.exe" system="1" id="51">
+      <FileInfo>
+        <Include />
+        <Exclude>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="影音类.QQ影音" SoftVersion="QQ影音" Process="QQPlayer.exe" system="1" id="52">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="影音类.KMPlayer" SoftVersion="KMPlayer" Process="KMPlayer.exe" system="1" id="53">
+      <FileInfo>
+        <Include />
+        <Exclude>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="影音类.iTunes" SoftVersion="iTunes" Process="iTunes.exe" system="1" id="54">
+      <FileInfo>
+        <Include />
+        <Exclude>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="影音类.迅雷看看" SoftVersion="迅雷看看" Process="XMP.exe" system="1" id="55">
+      <FileInfo>
+        <Include />
+        <Exclude>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="影音类.RealPlayer" SoftVersion="RealPlayer" Process="realplay.exe" system="1" id="56">
+      <FileInfo>
+        <Include />
+        <Exclude>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="影音类.千千静听" SoftVersion="千千静听" Process="TTPlayer.exe" system="1" id="57">
+      <FileInfo>
+        <Include />
+        <Exclude>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="浏览器_IE" SoftVersion="IE浏览器" Process="iexplore.exe" system="1" id="58" NoWaterMark="1">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.ini</FileType>
+          <FileType>*.js</FileType>
+          <FileType>*.jsp</FileType>
+          <FileType>*.htm</FileType>
+          <FileType>*.xml</FileType>
+          <FileType>*.dat</FileType>
+          <FileType>*.css</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*.dll</FileType>
+          <FileType>*.sql</FileType>
+          <FileType>*.ocx</FileType>
+          <FileType>*.log</FileType>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl>
+      </SocketControl>
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="1" SoftType="办公类.思维导图" SoftVersion="所有版本" Process="OriginalFilename@@MindManager.exe" id="60" system="0" IsControled="0" Model="0" NotHalfMode="0">
+      <FileInfo>
+        <Include>
+          <FileType>*.mmap</FileType>
+          <FileType>*.xmmap</FileType>
+          <FileType>*.mmat</FileType>
+          <FileType>*.xmmat</FileType>
+          <FileType>*.xml</FileType>
+          <FileType>*.mmas</FileType>
+          <FileType>*.xmmas</FileType>
+          <FileType>*.mmp</FileType>
+          <FileType>*.txt</FileType>
+          <FileType>*.html</FileType>
+          <FileType>*.csv</FileType>
+          <FileType>*.pdf</FileType>
+          <FileType>*.swf</FileType>
+          <FileType>*.bmp</FileType>
+          <FileType>*.gif</FileType>
+          <FileType>*.jpeg</FileType>
+          <FileType>*.jpg</FileType>
+          <FileType>*.png</FileType>
+          <FileType>*.emf</FileType>
+          <FileType>*.wmf</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*\Mindjet\MindManager\*</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="1" SoftType="办公类.永中表格" SoftVersion="所有版本" Process="OriginalFilename@@Yozo_Calc.exe" id="61" system="0" IsControled="0" Model="0" NotHalfMode="0">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.dll</FileType>
+          <FileType>*.ini</FileType>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="1" SoftType="办公类.永中文字" SoftVersion="所有版本" Process="OriginalFilename@@Yozo_Writer.exe" id="62" system="0" IsControled="0" Model="0" NotHalfMode="0">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.dll</FileType>
+          <FileType>*.ini</FileType>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="1" SoftType="办公类.永中简报" SoftVersion="所有版本" Process="OriginalFilename@@Yozo_Impress.exe" id="63" system="0" IsControled="0" Model="0" NotHalfMode="0">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.dll</FileType>
+          <FileType>*.ini</FileType>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="设计类.浩辰CAD" SoftVersion="浩辰CAD2015" Process="gcad.exe" system="1" id="30">
+      <FileInfo>
+        <Include>
+          <FileType>*.dwg</FileType>
+          <FileType>*.dws</FileType>
+          <FileType>*.dwt</FileType>
+          <FileType>*.dxf</FileType>
+          <FileType>*.dwf</FileType>
+          <FileType>*.bak</FileType>
+          <FileType>*.xps</FileType>
+          <FileType>*.pdf</FileType>
+          <FileType>*.jpg</FileType>
+          <FileType>*.png</FileType>
+        </Include>
+        <Exclude>
+        </Exclude>
+      </FileInfo>
+      <WindowsControl />
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="0" SoftType="Windows虚拟打印程序.spoolsv" SoftVersion="所有版本" Process="spoolsv.exe" id="64" system="0" IsControled="0" Model="0" NotHalfMode="0">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="设计类.中望CAD" SoftVersion="zwcad2015" Process="ZWCAD.exe" system="1" id="24">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.data</FileType>
+          <FileType>*.aws</FileType>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*ZWSOFT\ZWCAD*</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="办公类.PDF" SoftVersion="FoxitPDFEdit" Process="PDFEdit.1393326241.exe" system="1" id="10">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.dat</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*.mb</FileType>
+          <FileType>*spl*.tmp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="绘图类.ACDSee" SoftVersion="ACDSee18" Process="ProductName@@ACDSee 18" system="1" id="12">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*ACD Systems\Catalogs*</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="0" SoftType="绘图类.MS_画图" SoftVersion="mspaint" Process="OriginalFilename@@MSPAINT.EXE" system="1" id="21">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="绘图类.MS_画图" SoftVersion="Rundll32" Process="OriginalFilename@@RUNDLL.EXE" system="1" id="21">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+      <进程控制 IsCustom="1" />
+    </ModuleInfo>
+    <ModuleInfo IsControled="0" Model="0" NotHalfMode="0" IsCharacteristic="1" SoftType="绘图类.MS_画图" SoftVersion="mspaint 64" Process="OriginalFilename@@MSPAINT.EXE.MUI" system="1" id="21">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*.bin</FileType>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="0" SoftType="绘图类.MS_画图" SoftVersion="Rundll 32" Process="Rundll32.exe" id="21" system="0" IsControled="0" Model="0" NotHalfMode="0">
+      <FileInfo>
+        <Include>
+          <FileType>*.jpg</FileType>
+          <FileType>*.png</FileType>
+          <FileType>*.tiff</FileType>
+          <FileType>*.tif</FileType>
+          <FileType>*.gif</FileType>
+          <FileType>*.jfif</FileType>
+          <FileType>*.jpe</FileType>
+          <FileType>*.jpeg</FileType>
+          <FileType>*.dib</FileType>
+          <FileType>*.bmp</FileType>
+        </Include>
+        <Exclude />
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="0" SoftType="绘图类.MS_画图" SoftVersion="dllhost.exe" Process="dllhost.exe" id="21" system="0" IsControled="0" Model="0" NotHalfMode="1">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="0" SoftType="绘图类.3DMAX" SoftVersion="dllhost.exe" Process="dllhost.exe" id="16" system="0" IsControled="0" Model="0" NotHalfMode="1">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="0" SoftType="绘图类.Photoshop" SoftVersion="dllhost.exe" Process="dllhost.exe" id="14" system="0" IsControled="0" Model="0" NotHalfMode="1">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="0" SoftType="绘图类.illustrator" SoftVersion="dllhost.exe" Process="dllhost.exe" id="18" system="0" IsControled="0" Model="0" NotHalfMode="1">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="0" SoftType="绘图类.CorelDraw" SoftVersion="dllhost.exe" Process="dllhost.exe" id="15" system="0" IsControled="0" Model="0" NotHalfMode="1">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="0" SoftType="绘图类.RHINO" SoftVersion="dllhost.exe" Process="dllhost.exe" id="19" system="0" IsControled="0" Model="0" NotHalfMode="1">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="1" SoftType="绘图类.ACDSee" SoftVersion="ACDSeeGFMF" Process="ProductName@@ACDSee Official Free Edition" id="12" system="0" IsControled="0" Model="0" NotHalfMode="0">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*sql*.tmp</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*ACD Systems\Catalogs*</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="1" SoftType="绘图类.ACDSee" SoftVersion="ACDSee17" Process="ProductName@@ACDSee 17" id="12" system="0" IsControled="0" Model="0" NotHalfMode="0">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*sql*.tmp</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*ACD Systems\Catalogs*</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="1" SoftType="绘图类.ACDSee" SoftVersion="ACDSee19" Process="ProductName@@ACDSee 19" id="12" system="0" IsControled="0" Model="0" NotHalfMode="0">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*sql*.tmp</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*ACD Systems\Catalogs*</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="1" SoftType="绘图类.ACDSee" SoftVersion="ACDSee16" Process="ProductName@@Acdsee 16" id="12" system="0" IsControled="0" Model="0" NotHalfMode="0">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*sql*.tmp</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*ACD Systems\Catalogs*</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="1" SoftType="绘图类.ACDSee" SoftVersion="ACDSee15" Process="ProductName@@ACDSee 15" id="12" system="0" IsControled="0" Model="0" NotHalfMode="0">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*sql*.tmp</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*ACD Systems\Catalogs*</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="1" SoftType="绘图类.ACDSee" SoftVersion="ACDSee14" Process="ProductName@@ACDSee 14" id="12" system="0" IsControled="0" Model="0" NotHalfMode="0">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*ACD Systems\Catalogs*</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="1" SoftType="绘图类.ACDSee" SoftVersion="ACDSee12" Process="ProductName@@ACDSee Photo Manager 12" id="12" system="0" IsControled="0" Model="0" NotHalfMode="0">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*ACD Systems\Catalogs*</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="1" SoftType="绘图类.ACDSee" SoftVersion="ACDSee11" Process="ProductName@@ACDSee Photo Manager 2009" id="12" system="0" IsControled="0" Model="0" NotHalfMode="0">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*ACD Systems\Catalogs*</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="1" SoftType="绘图类.ACDSee" SoftVersion="ACDSeePro8" Process="ProductName@@ACDSee Pro 8" id="12" system="0" IsControled="0" Model="0" NotHalfMode="0">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*ACD Systems\Catalogs*</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="1" SoftType="绘图类.ACDSee" SoftVersion="ACDSeePro7" Process="ProductName@@ACDSee Pro 7" id="12" system="0" IsControled="0" Model="0" NotHalfMode="0">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*ACD Systems\Catalogs*</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="1" SoftType="绘图类.ACDSee" SoftVersion="ACDSeePro6" Process="ProductName@@ACDSee Pro 6" id="12" system="0" IsControled="0" Model="0" NotHalfMode="0">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*ACD Systems\Catalogs*</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="1" SoftType="绘图类.ACDSee" SoftVersion="ACDSeePro5" Process="ProductName@@ACDSee Pro 5" id="12" system="0" IsControled="0" Model="0" NotHalfMode="0">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*ACD Systems\Catalogs*</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="1" SoftType="绘图类.ACDSee" SoftVersion="ACDSeePro4" Process="ProductName@@ACDSee Pro 4" id="12" system="0" IsControled="0" Model="0" NotHalfMode="0">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*ACD Systems\Catalogs*</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="1" SoftType="绘图类.ACDSee" SoftVersion="ACDSeePro3" Process="ProductName@@ACDSee Pro 3" id="12" system="0" IsControled="0" Model="0" NotHalfMode="0">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*ACD Systems\Catalogs*</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="1" SoftType="绘图类.ACDSee" SoftVersion="ACDSeePro2" Process="ProductName@@ACDSee Pro 2" id="12" system="0" IsControled="0" Model="0" NotHalfMode="0">
+      <FileInfo>
+        <Include>
+          <FileType>*</FileType>
+        </Include>
+        <Exclude>
+          <FileType>*spl*.tmp</FileType>
+          <FileType>*.bin</FileType>
+          <FileType>*ACD Systems\Catalogs*</FileType>
+          <FileType>*temp*.fp</FileType>
+        </Exclude>
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="0" SoftType="VS" SoftVersion="devenv.exe" Process="devenv.exe" id="10002" system="0" IsControled="0" Model="0" NotHalfMode="1">
+      <FileInfo>
+        <Include />
+        <Exclude />
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="21" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="0" SoftType="VS" SoftVersion="VcBuildHelper.exe" Process="VcBuildHelper.exe" id="10002" system="0" IsControled="0" Model="0" NotHalfMode="1" Inherit="1">
+      <FileInfo>
+        <Include />
+        <Exclude />
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="0" SoftType="VS" SoftVersion="MSBuild.exe" Process="MSBuild.exe" id="10002" system="0" IsControled="0" Model="0" NotHalfMode="1" Inherit="1">
+      <FileInfo>
+        <Include />
+        <Exclude />
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="21" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="1" SoftType="BCompare.exe" SoftVersion="BCompare.exe" Process="BCompare.exe" id="10008" system="0" IsControled="0" Model="0" NotHalfMode="0">
+      <FileInfo>
+        <Include />
+        <Exclude />
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="0" SoftType="VS" SoftVersion="vcpkgsrv.exe" Process="vcpkgsrv.exe" id="10002" system="0" IsControled="0" Model="0" NotHalfMode="1">
+      <FileInfo>
+        <Include />
+        <Exclude />
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="0" SoftType="管理类.SVN" SoftVersion="TortoiseProc.exe" Process="TortoiseProc.exe" id="40" system="0" IsControled="0" Model="0" NotHalfMode="1">
+      <FileInfo>
+        <Include />
+        <Exclude />
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="1" SoftType="办公类.MS_Word" SoftVersion="000" Process="000" id="1" system="0" IsControled="0" Model="0" NotHalfMode="0">
+      <FileInfo>
+        <Include />
+        <Exclude />
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="1" SoftType="办公类.MS_Word" SoftVersion="32" Process="god_is_a_girl" id="1" system="0" IsControled="0" Model="0" NotHalfMode="0">
+      <FileInfo>
+        <Include />
+        <Exclude />
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="1" SoftType="办公类.MS_Word" SoftVersion="god_is_a_girl" Process="33" id="1" system="0" IsControled="0" Model="0" NotHalfMode="0">
+      <FileInfo>
+        <Include />
+        <Exclude />
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="1" SoftType="办公类.MS_Word" SoftVersion="english" Process="1" id="1" system="0" IsControled="0" Model="0" NotHalfMode="0">
+      <FileInfo>
+        <Include />
+        <Exclude />
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="1" SoftType="办公类.MS_Word" SoftVersion="dfa" Process="fa" id="1" system="0" IsControled="0" Model="0" NotHalfMode="0">
+      <FileInfo>
+        <Include />
+        <Exclude />
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+    <ModuleInfo IsCharacteristic="1" SoftType="办公类.MS_Word" SoftVersion="fd" Process="fd" id="1" system="0" IsControled="0" Model="0" NotHalfMode="0">
+      <FileInfo>
+        <Include />
+        <Exclude />
+      </FileInfo>
+      <DllControl />
+      <SocketControl />
+      <DebugControl SingleJudge="" DocGuarder="" CheckPoint="" />
+      <OLEControl />
+      <DGPrintfList />
+      <WindowsControl />
+    </ModuleInfo>
+  </Program>
+  <Global>
+    <BlackProcess Name="程序黑名单" Type="21" Domain="1">
+    </BlackProcess>
+    <SocketControl Name="Socket配置" Type="9" Domain="1" />
+    <DllControl Name="dll配置" Type="7" Domain="1" />
+    <DebugControl Name="Debug控制" Type="27" Domain="1" NoControlAll="0" NoCreateEncodeFile="0">
+      <OnlyControl Name="只受控程序" Type="23" Domain="1" />
+    </DebugControl>
+    <OLEControl Name="OLE配置" Type="16" Domain="1" />
+    <DGPrintfList Name="打印机配置" Type="18" Domain="1">
+    </DGPrintfList>
+    <WindowsControl Name="WindowsControl" Type="42" Domain="1">
+      <ModuleInfo Type="43" Domain="0">DDE@@Excel</ModuleInfo>
+      <ModuleInfo Type="43" Domain="0">DDE@@Microsoft Excel</ModuleInfo>
+      <ModuleInfo Type="43" Domain="0">DDE@@Microsoft Word</ModuleInfo>
+      <ModuleInfo Type="43" Domain="0">DDE@@Word</ModuleInfo>
+      <ModuleInfo Domain="1">NotSaveAs</ModuleInfo>
+      <ModuleInfo Domain="1">*##*另存*</ModuleInfo>
+      <ModuleInfo Domain="1">DDE@@CorelDraw X</ModuleInfo>
+      <ModuleInfo Domain="0">*##*save*as*</ModuleInfo>
+      <ModuleInfo Domain="0">DDE@@Macromedia Flash</ModuleInfo>
+      <ModuleInfo Domain="0">*##*save to*</ModuleInfo>
+      <ModuleInfo Domain="0">*##*保存为*</ModuleInfo>
+      <ModuleInfo Domain="1">*##*保存绘图*</ModuleInfo>
+    </WindowsControl>
+    <linux IsCustom="1">
+      <copy-protect IsCustom="1">
+        <soffice.bin IsCustom="1" process="soffice.bin" />
+        <gedit IsCustom="1" process="gedit" />
+      </copy-protect>
+      <gcc IsCustom="1">
+        <process-make IsCustom="1" process="make" ctrlsub="true">
+        </process-make>
+        <process-gcc IsCustom="1" cusid="47dc2738-3a18-474b-99e8-0a0ed3ff11fe" process="gcc" ctrlsub="true" />
+        <process-gpp IsCustom="1" cusid="33d52534-ba4a-42ca-b117-e9856902e5f3" process="g++" ctrlsub="true" />
+      </gcc>
+      <office IsCustom="1">
+        <process-soffice IsCustom="1" process="soffice.bin">
+          <include IsCustom="1">
+            <all IsCustom="1" suffix=".*" />
+          </include>
+          <exclude IsCustom="1">
+            <db IsCustom="1" suffix=".db" />
+          </exclude>
+        </process-soffice>
+      </office>
+      <gedit IsCustom="1">
+        <process-gedit IsCustom="1" process="gedit">
+          <include IsCustom="1">
+            <all IsCustom="1" suffix=".*" />
+          </include>
+          <exclude IsCustom="1">
+          </exclude>
+        </process-gedit>
+      </gedit>
+      <evince IsCustom="1">
+        <process-evjob IsCustom="1" process="EvJobScheduler">
+          <include IsCustom="1">
+            <all IsCustom="1" suffix=".*" />
+          </include>
+          <exclude IsCustom="1" />
+        </process-evjob>
+        <process-evince IsCustom="1" process="evince">
+          <include IsCustom="1">
+            <all IsCustom="1" suffix=".*" />
+          </include>
+          <exclude IsCustom="1" />
+        </process-evince>
+      </evince>
+      <qt IsCustom="1">
+        <process-qtcreator IsCustom="1" process="qtcreator">
+          <include IsCustom="1">
+            <h IsCustom="1" cusid="44de83ef-76b1-4f6e-ab7c-dc3ff8f1489d" suffix=".h" />
+            <cpp IsCustom="1" cusid="8249e05d-b90d-43db-a451-ba204f4bf0d6" suffix=".cpp" />
+          </include>
+        </process-qtcreator>
+        <process-qmake-qt4 IsCustom="1" process="qmake-qt4" ctrlsub="true">
+          <include IsCustom="1">
+            <cpp IsCustom="1" cusid="0d1bdc6f-065c-41ef-8cdf-198d02b370b4" suffix=".cpp" />
+            <h IsCustom="1" cusid="9dc13af3-bb37-4950-a0d8-44d056413a2b" suffix=".h" />
+          </include>
+        </process-qmake-qt4>
+        <process-moc-qt4 IsCustom="1" process="moc-qt4">
+          <include IsCustom="1">
+            <cpp IsCustom="1" cusid="57ea4d30-9920-4566-9b40-557b8a39f2b9" suffix=".cpp" />
+            <h IsCustom="1" cusid="aa042ec0-e4f6-4b8a-bc33-b48d318e184c" suffix=".h" />
+          </include>
+        </process-moc-qt4>
+        <process-uic-qt4 IsCustom="1" process="uic-qt4">
+          <include IsCustom="1">
+            <cpp IsCustom="1" cusid="bf0039d9-7a7e-4995-a7a1-a0963d7dafe9" suffix=".cpp" />
+            <h IsCustom="1" cusid="0b922854-0946-4ff6-abab-017290f11a60" suffix=".h" />
+          </include>
+        </process-uic-qt4>
+        <process-qmake IsCustom="1" process="qmake" ctrlsub="true">
+          <include IsCustom="1" cusid="f7c32f82-1ea2-4489-a6b7-6b63b5c77d9b">
+            <cpp IsCustom="1" cusid="daf0fa0f-320a-45e7-925a-6e8de5c404a5" suffix=".cpp" />
+            <h IsCustom="1" cusid="73dc9019-deb1-40e8-9196-36cb7afa938d" suffix=".h" />
+          </include>
+        </process-qmake>
+      </qt>
+      <pool IsCustom="1">
+        <process-pool IsCustom="1" process="pool">
+          <include IsCustom="1">
+            <all IsCustom="1" suffix=".*" />
+          </include>
+          <exclude IsCustom="1" />
+        </process-pool>
+      </pool>
+      <vim IsCustom="1">
+        <process-vim IsCustom="1" process="vim">
+          <include IsCustom="1">
+            <all IsCustom="1" suffix=".*" />
+          </include>
+          <exclude IsCustom="1" />
+        </process-vim>
+        <process-vi IsCustom="1" process="vi">
+          <include IsCustom="1">
+            <all IsCustom="1" suffix=".*" />
+          </include>
+          <exclude IsCustom="1" />
+        </process-vi>
+      </vim>
+      <wps IsCustom="1" cusid="78018d70-b8f1-49d2-9423-d6a842133c98">
+        <process-wps IsCustom="1" cusid="b18d0a93-6040-4af8-9c97-9d3c5ecc5e49" process="wps">
+          <include IsCustom="1" cusid="c36ed55d-dc18-49be-a497-80f59ee51c87">
+            <all IsCustom="1" cusid="d0b2bfb5-0656-4233-9845-42a514af6e2f" suffix=".*" />
+          </include>
+          <exclude IsCustom="1" cusid="b9ae2dd8-dc44-4b03-8059-f25424ca4d4d" />
+        </process-wps>
+      </wps>
+    </linux>
+  </Global>
+</config>
